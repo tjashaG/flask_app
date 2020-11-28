@@ -1,0 +1,65 @@
+
+.carousel-inner {
+width: auto;
+height: auto;
+}
+
+.cards-container {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.title {
+text-align: center;
+margin: 40px;
+}
+
+.card-text {
+text-align: center;
+text-shadow: 3px 3px #C0C0C0;
+font-weight: bold;
+}
+
+.appointment-section {
+display: flex;
+align-items: baseline;
+}
+
+.form-section {
+width: 30%;
+display: flex;
+flex-flow: column;
+padding: 0px 40px;
+align-self: center;
+}
+
+.p {
+font-size: 12px;
+}
+
+.schedule {
+width: 30%;
+padding-top: 20px;
+}
+
+.accordion {
+display: flex;
+flex-flow: column;
+margin: 0 40px;
+}
+
+.ul {
+list-style-type: none;
+}
+
+.li {
+padding: 2px;
+}
+
+.img {
+text-align: center;
+}
+
+
+

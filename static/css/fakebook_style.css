@@ -1,0 +1,131 @@
+.logodiv {
+width: 1150px;
+}
+
+.logo {
+margin: 20px;
+float: left;
+ }
+
+.title {
+background: #3b83d9;
+color: #f2f7f5;
+width: 100%;
+padding: 8px;
+ }
+
+.cover {
+background: #cbc2f0;
+padding: 10px;
+}
+
+.navbardiv {
+width: 1170px;
+}
+
+.navbar {
+list-style-type: none;
+padding: 20px;
+background: #3b83d9;
+font-color: white;
+size: 100%
+}
+
+.li {
+text-decoration: none;
+display: inline;
+padding: 8px;
+margin-right: 8px;
+font-size: 20px;
+font-color: black;
+}
+
+.li:hover {
+background-color: #03a5fc;
+text-decoration: none;
+}
+
+.avatar {
+float: left;
+padding: 8px;
+}
+
+.coverphoto {
+float: center;
+padding-left: 24px;
+display: inline;
+width: 50%;
+}
+
+.pic {
+margin-left: 24px;
+padding: 8px;
+width: 100%;
+display: flex;
+}
+
+.upper {
+margin-left: 8px;
+}
+
+.button {
+background-color: #3b83d9;
+color: white;
+font-size: 16px;
+padding: 8px;
+}
+
+.button:hover {
+font-size: 150%;
+}
+
+.content {
+display: flex;
+width: 100%;
+align-items: stretch;
+}
+
+#left {
+width: 10%;
+border: solid;
+margin-left: 4px;
+background: #c1b7eb;
+}
+
+#right {
+width: 10%;
+border: solid 3px;
+background: #c1b7eb;
+}
+
+#middle {
+width: 55%;
+border: solid;
+margin-left: 16px;
+margin-right: 16px;
+padding-left: 8px;
+}
+
+.left {
+list-style-type: none;
+text-align: left;
+}
+
+.right {
+list-style-type: hiragana;
+text-align: left;
+}
+
+.li2 {
+padding: 4px 4px 4px 0;
+font-size: 16px;
+margin-top: 4px;
+}
+
+.name {
+font-family: "Lucida Console";
+font-size: 32px;
+margin-left: 4px;
+color: #2a0e99;
+}
+

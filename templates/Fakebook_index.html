@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fakebook">
+    <meta name="author" content="Tjasa's profile">
+    <link rel="stylesheet" href="../static/css/fakebook_style.css"/>
+    <title>Tjasa's Fakebook profile</title>
+</head>
+
+<body>
+    <div class="logodiv">
+        <div class="logo"><img src="../static/img/logo.png" alt="Fakebook logo" width="50" height="50"/></div>
+        <div class="title"><h1>WELCOME TO <i>FAKEBOOK</i></h1></div>
+    </div>
+    <hr>
+    <div class="upper">
+    <h3><i>Your #1 place for fake news and fake friends!</i></h3>
+    <div class="placeholder"><input type="text" placeholder="What's on your mind?"/></div>
+    </div>
+    <hr>
+     <div class="navbardiv">
+        <ul class="navbar">
+        <li class="li"><a href="#">About</a></li>
+        <li class="li"><a href="#">Fake Friends</a></li>
+        <li class="li"><a href="#">Timeline</a></li>
+        <li class="li"><a href="#">Photos</a></li>
+        <li class="li"><a href="#">Videos</a></li>
+        <li class="li"><a href="#">Marketplace</a></li>
+        <li class="li"><a href="#">More</a></li>
+        </ul>
+    </div>
+    <div class="pic">
+        <div class="avatar">
+            <img src="../static/img/myAvatar.png" alt="User Avatar" width="220" height="265"/>
+            <h3 class="name">TJAŠA GUZEJ</h3>
+            <button type="button" class="button" onclick="myFunction()" id="demo">Add as Fake Friend</button>
+        </div>
+            <div class="coverphoto">
+            <img src="../static/img/Fakebookcover.jpg" alt="User cover photo"/>
+        </div>
+    </div>
+
+
+<div class="content">
+    <div id="left">
+        <ul class="left">
+            <li class="li2">Covid Info Center</li>
+            <li class="li2">Friends</li>
+            <li class="li2">Groups</li>
+            <li class="li2">Marketplace</li>
+            <li class="li2">Videos</li>
+            <li class="li2">Events</li>
+            <li class="li2">Memories</li>
+            <li class="li2">Saved</li>
+            <li class="li2">See More</li>
+        </ul>
+    </div>
+
+    <div id="middle">
+        <h4><a href="#">Frank Sinatra</a> and <a href="#">8 others</a> is feeling adventurous in <a href="#">Las Vegas, Nevada</a></h4>
+        <p><i>This is how to have a good time! Whoo! Vegas at night, baby! YOLO!</i></p>
+        <hr>
+        <img src="../static/img/LasVegas.jpg" alt="LasVegas at night"/>
+        <hr>
+        <p><a href="#">68 people</a> liked this</p>
+        <p>View Comments...</p>
+      </div>
+
+    <div id="right">
+       <ul class="right">
+           <li class="li2">Your contacts:</li>
+           <li class="li2">Joan of Arc</li>
+           <li class="li2">Frank Sinatra</li>
+           <li class="li2">Leonard Cohen</li>
+           <li class="li2">Mick Jagger</li>
+           <li class="li2">Chuck Norris</li>
+           <li class="li2">Hillary Clinton</li>
+           <li class="li2">Oprah Winfrey</li>
+           <li class="li2">Roger Federer</li>
+
+       </ul>
+    </div>
+</div>
+<script>
+    function myFunction() {
+  document.getElementById("demo").innerHTML = "Request denied!";
+  document.getElementById("demo").style.backgroundColor = "red";
+}
+</script>
+
+</body>
+</html>
